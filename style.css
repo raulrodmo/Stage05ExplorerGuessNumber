@@ -1,0 +1,111 @@
+:root{
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+
+  display: grid;
+  place-items: center;
+  margin-top: -6rem;
+
+}
+
+main{
+  width: min(42.8rem, 90%);
+
+  padding: 4.8rem 6.4rem 6.4rem;  
+
+  text-align: center;
+
+  background: #FFFFFF;
+  box-shadow: 0rem .2rem .2rem rgba(0, 0, 0, 0.1);
+  border-radius: .6rem;
+}
+
+form button{
+  font-weight: bold;
+
+  background-color: #7879F1;
+  color: #FFFFFF;
+
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: #6363c6;
+}
+
+.hide{
+  display: none;
+}
+
+.screenOne h1{
+  font-family: 'Montserrat';
+  font-size: 2.4rem;
+  font-weight: 600;
+
+  margin-bottom: 1.6rem;
+}
+
+.screenOne h1 p{
+  color: #34355BCC;
+}
+
+.screenOne p{
+  opacity: .8;
+}
+
+.screenOne form{
+  display: flex;
+  gap: 0;
+
+  justify-content: center;
+
+  margin-top: 4.8rem;
+
+}
+
+.screenOne form input, button{
+  border: 0;
+  
+  padding: 1.6rem;
+}
+
+.screenOne form input{
+  width: 4.3rem;
+
+  background-color: #DCE2E9;
+
+  border-radius: 4px 0 0 4px;
+
+  text-align: center;
+}
+
+.screenOne form button{
+  border-radius: 0 4px 4px 0;
+}
+
+.screenTwo h2{
+  font-size: 2.4rem;
+
+  margin-bottom: 3.3rem;
+
+  color: #34355B;
+}
+
+.screenTwo form button{
+  border-radius: 4px;
+}
