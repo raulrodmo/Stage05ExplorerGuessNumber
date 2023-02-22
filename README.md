@@ -13,7 +13,7 @@ Repositório do desafio Jogo de adivinhação do stage 05 da turma 09 do explore
 <br>
 
 <p align="center">
-  <img alt="Formulário de mentoria" src=".github/preview.jpg" width="100%">
+  <img src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Technologies
